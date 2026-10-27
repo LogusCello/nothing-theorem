@@ -1,0 +1,405 @@
+{
+  "date": "2026-10-09",
+  "method": "Python exact integers/Fraction; Decimal 70-digit approximations; finite checks are not proofs",
+  "checks": {
+    "equilibrium": {
+      "range": "n=0..500",
+      "passed": true
+    },
+    "generalized_equilibrium": {
+      "seed_pairs": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "7"
+        ],
+        [
+          "2",
+          "5"
+        ],
+        [
+          "-3",
+          "2"
+        ],
+        [
+          "1/3",
+          "-2/7"
+        ]
+      ],
+      "range": "n=0..100",
+      "passed": true
+    },
+    "five_connector": {
+      "range": "n=1..499",
+      "passed": true
+    },
+    "gap_ratios": {
+      "rows": [
+        {
+          "n": 1,
+          "L": 1,
+          "gap": 1,
+          "ratio_left": "1",
+          "ratio_right": "1/3"
+        },
+        {
+          "n": 2,
+          "L": 3,
+          "gap": 0,
+          "ratio_left": "0",
+          "ratio_right": "0"
+        },
+        {
+          "n": 3,
+          "L": 4,
+          "gap": 2,
+          "ratio_left": "1/2",
+          "ratio_right": "2/7"
+        },
+        {
+          "n": 4,
+          "L": 7,
+          "gap": 3,
+          "ratio_left": "3/7",
+          "ratio_right": "3/11"
+        },
+        {
+          "n": 5,
+          "L": 11,
+          "gap": 6,
+          "ratio_left": "6/11",
+          "ratio_right": "1/3"
+        },
+        {
+          "n": 6,
+          "L": 18,
+          "gap": 10,
+          "ratio_left": "5/9",
+          "ratio_right": "10/29"
+        },
+        {
+          "n": 7,
+          "L": 29,
+          "gap": 17,
+          "ratio_left": "17/29",
+          "ratio_right": "17/47"
+        },
+        {
+          "n": 8,
+          "L": 47,
+          "gap": 28,
+          "ratio_left": "28/47",
+          "ratio_right": "7/19"
+        },
+        {
+          "n": 9,
+          "L": 76,
+          "gap": 46,
+          "ratio_left": "23/38",
+          "ratio_right": "46/123"
+        },
+        {
+          "n": 10,
+          "L": 123,
+          "gap": 75,
+          "ratio_left": "25/41",
+          "ratio_right": "75/199"
+        },
+        {
+          "n": 11,
+          "L": 199,
+          "gap": 122,
+          "ratio_left": "122/199",
+          "ratio_right": "61/161"
+        },
+        {
+          "n": 12,
+          "L": 322,
+          "gap": 198,
+          "ratio_left": "99/161",
+          "ratio_right": "198/521"
+        },
+        {
+          "n": 13,
+          "L": 521,
+          "gap": 321,
+          "ratio_left": "321/521",
+          "ratio_right": "107/281"
+        },
+        {
+          "n": 14,
+          "L": 843,
+          "gap": 520,
+          "ratio_left": "520/843",
+          "ratio_right": "130/341"
+        },
+        {
+          "n": 15,
+          "L": 1364,
+          "gap": 842,
+          "ratio_left": "421/682",
+          "ratio_right": "842/2207"
+        },
+        {
+          "n": 16,
+          "L": 2207,
+          "gap": 1363,
+          "ratio_left": "1363/2207",
+          "ratio_right": "1363/3571"
+        },
+        {
+          "n": 17,
+          "L": 3571,
+          "gap": 2206,
+          "ratio_left": "2206/3571",
+          "ratio_right": "1103/2889"
+        },
+        {
+          "n": 18,
+          "L": 5778,
+          "gap": 3570,
+          "ratio_left": "595/963",
+          "ratio_right": "3570/9349"
+        },
+        {
+          "n": 19,
+          "L": 9349,
+          "gap": 5777,
+          "ratio_left": "5777/9349",
+          "ratio_right": "5777/15127"
+        },
+        {
+          "n": 20,
+          "L": 15127,
+          "gap": 9348,
+          "ratio_left": "9348/15127",
+          "ratio_right": "2337/6119"
+        },
+        {
+          "n": 21,
+          "L": 24476,
+          "gap": 15126,
+          "ratio_left": "7563/12238",
+          "ratio_right": "5042/13201"
+        },
+        {
+          "n": 22,
+          "L": 39603,
+          "gap": 24475,
+          "ratio_left": "24475/39603",
+          "ratio_right": "24475/64079"
+        },
+        {
+          "n": 23,
+          "L": 64079,
+          "gap": 39602,
+          "ratio_left": "39602/64079",
+          "ratio_right": "19801/51841"
+        },
+        {
+          "n": 24,
+          "L": 103682,
+          "gap": 64078,
+          "ratio_left": "32039/51841",
+          "ratio_right": "64078/167761"
+        },
+        {
+          "n": 25,
+          "L": 167761,
+          "gap": 103681,
+          "ratio_left": "103681/167761",
+          "ratio_right": "103681/271443"
+        },
+        {
+          "n": 26,
+          "L": 271443,
+          "gap": 167760,
+          "ratio_left": "55920/90481",
+          "ratio_right": "41940/109801"
+        },
+        {
+          "n": 27,
+          "L": 439204,
+          "gap": 271442,
+          "ratio_left": "135721/219602",
+          "ratio_right": "271442/710647"
+        },
+        {
+          "n": 28,
+          "L": 710647,
+          "gap": 439203,
+          "ratio_left": "439203/710647",
+          "ratio_right": "439203/1149851"
+        },
+        {
+          "n": 29,
+          "L": 1149851,
+          "gap": 710646,
+          "ratio_left": "710646/1149851",
+          "ratio_right": "118441/310083"
+        },
+        {
+          "n": 30,
+          "L": 1860498,
+          "gap": 1149850,
+          "ratio_left": "574925/930249",
+          "ratio_right": "1149850/3010349"
+        }
+      ],
+      "counterexample_monotonicity": "n=3 \u2192 4: 1/2 \u2192 3/7; 2/7 \u2192 3/11",
+      "finite_ratios_sum_at_n4": "54/77"
+    },
+    "digit_map": {
+      "map": {
+        "0": "2",
+        "1": "1",
+        "2": "3",
+        "3": "4",
+        "4": "7",
+        "5": "11",
+        "6": "18",
+        "7": "29",
+        "8": "47",
+        "9": "76"
+      },
+      "settling_alphabet": "1,5",
+      "growing_alphabet": "0,2,3,4,6,7,8,9",
+      "active_lineages_double_within_four_substitutions": true,
+      "example": "5 \u2192 11 \u2192 11"
+    },
+    "symbol_frames": {
+      "frames": 16,
+      "distinct_sigma_images": 14,
+      "collisions": {
+        "==0==": [
+          ">==",
+          "==<"
+        ],
+        "0===0": [
+          "<=0",
+          "0=>"
+        ]
+      },
+      "mirror_law_passed": true,
+      "idempotence_passed": true
+    },
+    "terminal_counter": {
+      "moves": "0..5000",
+      "unique_position_orientation_stacks": 5001,
+      "independent_incremental_matches_closed_form": true,
+      "thresholds_L3_to_L7": [
+        2,
+        6,
+        36,
+        360,
+        6120
+      ]
+    },
+    "last_digit_periods": {
+      "k": "1..9",
+      "periods": [
+        1,
+        1,
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "start_n": "k",
+      "passed": true
+    },
+    "unfinished_grid_extension": {
+      "choice": "archived n0 adjustment 2 \u2192 1; n=0..7",
+      "k": "2..7",
+      "sums": [
+        311,
+        1311,
+        15311,
+        95311,
+        195311,
+        195311
+      ]
+    },
+    "mertens": {
+      "near_100000": {
+        "99994": -48,
+        "99995": -49,
+        "99996": -49,
+        "99997": -49,
+        "99998": -48,
+        "99999": -48,
+        "100000": -48,
+        "100001": -47
+      },
+      "first_positive_after_n1": 94,
+      "positive_negative_zero_counts_to_100000": [
+        47830,
+        50621,
+        1549
+      ]
+    },
+    "seven_segment_rotation": {
+      "0": 0,
+      "1": null,
+      "2": 2,
+      "3": null,
+      "4": null,
+      "5": 5,
+      "6": 9,
+      "7": null,
+      "8": 8,
+      "9": 6
+    },
+    "checkpoints": {
+      "V0": "137.0357142857142857142857142857142857142857142857142857142857142857143",
+      "V1": "137.0359659190844653625382103988774070465046712653948910722791178966532",
+      "V2": "137.0360179530474857985434739370600349455144587914632531013679004438496",
+      "FINAL": "137.0360006083931456532083860909991589791778629494404657583383062614508",
+      "archive_reference_only": "137.035999177",
+      "FINAL_minus_archive_reference": "0.0000014313931456532083860909991589791778629494404657583383062614508",
+      "relative_error_percent": "0.000001044538044199886518765919326616869961912402764454167560144232041205982",
+      "e_six_terms": "2.718282683986364921013507733662691714953971767360357214964757751635130",
+      "e_error": "8.55527319685653220262310029217196724673660397639997790123911053E-7",
+      "angle_norm": "254.5584412271571087843039703577456541425409375678506531718023528383318"
+    },
+    "binary64_wall": {
+      "1474": {
+        "F": "4.992254605477766e+307",
+        "backward": "-4.992254605477766e+307",
+        "sum": "0.0"
+      },
+      "1475": {
+        "F": "8.077637632156222e+307",
+        "backward": "8.077637632156222e+307",
+        "sum": "1.6155275264312444e+308"
+      },
+      "1476": {
+        "F": "1.3069892237633987e+308",
+        "backward": "-1.3069892237633987e+308",
+        "sum": "0.0"
+      },
+      "1477": {
+        "F": "inf",
+        "backward": "inf",
+        "sum": "inf"
+      },
+      "1478": {
+        "F": "inf",
+        "backward": "-inf",
+        "sum": "nan"
+      },
+      "1479": {
+        "F": "inf",
+        "backward": "inf",
+        "sum": "inf"
+      }
+    }
+  },
+  "all_assertions_passed": true
+}

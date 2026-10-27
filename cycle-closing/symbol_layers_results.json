@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-09",
+  "all_assertions_passed": true,
+  "status": "conditional identities and candidate encoding, not a complete geometry model",
+  "pair_recurrence": {
+    "range": "n=0..100",
+    "ordered_seed": [
+      "L=2",
+      "F=0"
+    ],
+    "forward": [
+      "(L+5F)/2",
+      "(L+F)/2"
+    ],
+    "inverse": [
+      "(5F-L)/2",
+      "(L-F)/2"
+    ],
+    "invariant": "L\u00b2\u22125F\u00b2 = 4(\u22121)^n",
+    "rows": [
+      {
+        "n": 0,
+        "L": 2,
+        "F": 0,
+        "invariant": 4,
+        "next_L": "1",
+        "next_F": "1"
+      },
+      {
+        "n": 1,
+        "L": 1,
+        "F": 1,
+        "invariant": -4,
+        "next_L": "3",
+        "next_F": "1"
+      },
+      {
+        "n": 2,
+        "L": 3,
+        "F": 1,
+        "invariant": 4,
+        "next_L": "4",
+        "next_F": "2"
+      },
+      {
+        "n": 3,
+        "L": 4,
+        "F": 2,
+        "invariant": -4,
+        "next_L": "7",
+        "next_F": "3"
+      },
+      {
+        "n": 4,
+        "L": 7,
+        "F": 3,
+        "invariant": 4,
+        "next_L": "11",
+        "next_F": "5"
+      },
+      {
+        "n": 5,
+        "L": 11,
+        "F": 5,
+        "invariant": -4,
+        "next_L": "18",
+        "next_F": "8"
+      },
+      {
+        "n": 6,
+        "L": 18,
+        "F": 8,
+        "invariant": 4,
+        "next_L": "29",
+        "next_F": "13"
+      },
+      {
+        "n": 7,
+        "L": 29,
+        "F": 13,
+        "invariant": -4,
+        "next_L": "47",
+        "next_F": "21"
+      },
+      {
+        "n": 8,
+        "L": 47,
+        "F": 21,
+        "invariant": 4,
+        "next_L": "76",
+        "next_F": "34"
+      },
+      {
+        "n": 9,
+        "L": 76,
+        "F": 34,
+        "invariant": -4,
+        "next_L": "123",
+        "next_F": "55"
+      },
+      {
+        "n": 10,
+        "L": 123,
+        "F": 55,
+        "invariant": 4,
+        "next_L": "199",
+        "next_F": "89"
+      },
+      {
+        "n": 11,
+        "L": 199,
+        "F": 89,
+        "invariant": -4,
+        "next_L": "322",
+        "next_F": "144"
+      },
+      {
+        "n": 12,
+        "L": 322,
+        "F": 144,
+        "invariant": 4,
+        "next_L": "521",
+        "next_F": "233"
+      }
+    ],
+    "additional_rational_seed_pairs": 169
+  },
+  "grouped_symbols": {
+    "words_checked": 5461,
+    "max_length": 6,
+    "alphabet": [
+      ">",
+      "<",
+      "=",
+      "0"
+    ],
+    "frames_grouped": 16,
+    "frames_flattened": 14,
+    "collision": {
+      "first": ">==",
+      "second": "==<",
+      "first_groups": [
+        "==0",
+        "=",
+        "="
+      ],
+      "second_groups": [
+        "=",
+        "=",
+        "0=="
+      ],
+      "same_flat_string": "==0=="
+    },
+    "assumption": "explicit group boundaries are retained"
+  },
+  "coordinate_encoding": {
+    "strings_checked": 9840,
+    "max_length": 8,
+    "alphabet": "xyz",
+    "format": "slash-separated runs; suffix counts extra repetitions",
+    "examples": {
+      "x": "x",
+      "y": "y",
+      "z": "z",
+      "zx": "z/x",
+      "zy": "z/y",
+      "zz": "z1",
+      "zzz": "z2",
+      "xyzzx": "x/y/z1/x"
+    },
+    "meaning": "reversible address spelling; dimension count not inferred"
+  },
+  "open": [
+    "exact cancellation-to-echo rewrite",
+    "a definition and transition for each zero type",
+    "cross-layer decoding/re-encoding and timing",
+    "coordinate decoding into a geometric space with independent directions",
+    "no-same-particles rule and its actual domain"
+  ]
+}

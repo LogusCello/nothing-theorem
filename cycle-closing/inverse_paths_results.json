@@ -1,0 +1,543 @@
+{
+  "date": "2026-10-09",
+  "status": "candidate interpretations tested; no claim of a complete formalization",
+  "passed": true,
+  "matrix_checks_n": "0..100",
+  "quadratic_form_seed_pairs": 169,
+  "reflection_points": 606,
+  "matrix_rows": [
+    {
+      "n": 0,
+      "forward_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "L_forward": 2,
+      "L_inverse": 2,
+      "L_sum": 4,
+      "F_sum": 0
+    },
+    {
+      "n": 1,
+      "forward_matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "L_forward": 1,
+      "L_inverse": -1,
+      "L_sum": 0,
+      "F_sum": 2
+    },
+    {
+      "n": 2,
+      "forward_matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "L_forward": 3,
+      "L_inverse": 3,
+      "L_sum": 6,
+      "F_sum": 0
+    },
+    {
+      "n": 3,
+      "forward_matrix": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          -3,
+          2
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      "L_forward": 4,
+      "L_inverse": -4,
+      "L_sum": 0,
+      "F_sum": 4
+    },
+    {
+      "n": 4,
+      "forward_matrix": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          5,
+          -3
+        ],
+        [
+          -3,
+          2
+        ]
+      ],
+      "L_forward": 7,
+      "L_inverse": 7,
+      "L_sum": 14,
+      "F_sum": 0
+    },
+    {
+      "n": 5,
+      "forward_matrix": [
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          -8,
+          5
+        ],
+        [
+          5,
+          -3
+        ]
+      ],
+      "L_forward": 11,
+      "L_inverse": -11,
+      "L_sum": 0,
+      "F_sum": 10
+    },
+    {
+      "n": 6,
+      "forward_matrix": [
+        [
+          5,
+          8
+        ],
+        [
+          8,
+          13
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          13,
+          -8
+        ],
+        [
+          -8,
+          5
+        ]
+      ],
+      "L_forward": 18,
+      "L_inverse": 18,
+      "L_sum": 36,
+      "F_sum": 0
+    },
+    {
+      "n": 7,
+      "forward_matrix": [
+        [
+          8,
+          13
+        ],
+        [
+          13,
+          21
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          -21,
+          13
+        ],
+        [
+          13,
+          -8
+        ]
+      ],
+      "L_forward": 29,
+      "L_inverse": -29,
+      "L_sum": 0,
+      "F_sum": 26
+    },
+    {
+      "n": 8,
+      "forward_matrix": [
+        [
+          13,
+          21
+        ],
+        [
+          21,
+          34
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          34,
+          -21
+        ],
+        [
+          -21,
+          13
+        ]
+      ],
+      "L_forward": 47,
+      "L_inverse": 47,
+      "L_sum": 94,
+      "F_sum": 0
+    },
+    {
+      "n": 9,
+      "forward_matrix": [
+        [
+          21,
+          34
+        ],
+        [
+          34,
+          55
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          -55,
+          34
+        ],
+        [
+          34,
+          -21
+        ]
+      ],
+      "L_forward": 76,
+      "L_inverse": -76,
+      "L_sum": 0,
+      "F_sum": 68
+    },
+    {
+      "n": 10,
+      "forward_matrix": [
+        [
+          34,
+          55
+        ],
+        [
+          55,
+          89
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          89,
+          -55
+        ],
+        [
+          -55,
+          34
+        ]
+      ],
+      "L_forward": 123,
+      "L_inverse": 123,
+      "L_sum": 246,
+      "F_sum": 0
+    },
+    {
+      "n": 11,
+      "forward_matrix": [
+        [
+          55,
+          89
+        ],
+        [
+          89,
+          144
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          -144,
+          89
+        ],
+        [
+          89,
+          -55
+        ]
+      ],
+      "L_forward": 199,
+      "L_inverse": -199,
+      "L_sum": 0,
+      "F_sum": 178
+    },
+    {
+      "n": 12,
+      "forward_matrix": [
+        [
+          89,
+          144
+        ],
+        [
+          144,
+          233
+        ]
+      ],
+      "inverse_matrix": [
+        [
+          233,
+          -144
+        ],
+        [
+          -144,
+          89
+        ]
+      ],
+      "L_forward": 322,
+      "L_inverse": 322,
+      "L_sum": 644,
+      "F_sum": 0
+    }
+  ],
+  "source_interval_checks": [
+    {
+      "source_limit": "1/2",
+      "meeting_position": "1/4",
+      "signed_half_sum": "0",
+      "combined_magnitude": "1/2"
+    },
+    {
+      "source_limit": "1",
+      "meeting_position": "1/2",
+      "signed_half_sum": "0",
+      "combined_magnitude": "1"
+    },
+    {
+      "source_limit": "2",
+      "meeting_position": "1",
+      "signed_half_sum": "0",
+      "combined_magnitude": "2"
+    },
+    {
+      "source_limit": "3",
+      "meeting_position": "3/2",
+      "signed_half_sum": "0",
+      "combined_magnitude": "3"
+    },
+    {
+      "source_limit": "7",
+      "meeting_position": "7/2",
+      "signed_half_sum": "0",
+      "combined_magnitude": "7"
+    },
+    {
+      "source_limit": "10",
+      "meeting_position": "5",
+      "signed_half_sum": "0",
+      "combined_magnitude": "10"
+    }
+  ],
+  "hidden_cycle": {
+    "states": [
+      [
+        "+1/2",
+        "-1/2"
+      ],
+      [
+        "-1/2",
+        "+1/2"
+      ]
+    ],
+    "same_signed_sum": 0,
+    "same_magnitude": 1,
+    "period": 2,
+    "rule_status": "chosen simultaneous swap, not derived"
+  },
+  "mirror_2_to_5": {
+    "candidate_rule": "R_B(x)=B-x",
+    "required_B": 7,
+    "fixed_point": "7/2",
+    "R_2_of_2": 0,
+    "interpretation": "a single unchanged interval of width 2 cannot implement this numerical reflection"
+  },
+  "seed_order_check": {
+    "Lucas": [
+      2,
+      1,
+      3,
+      4,
+      7,
+      11,
+      18,
+      29
+    ],
+    "swapped_pair_next_limits": [
+      2,
+      3,
+      5,
+      8,
+      13,
+      21,
+      34
+    ]
+  },
+  "prime_check": [
+    {
+      "n": 0,
+      "L_n": 2,
+      "prime": true
+    },
+    {
+      "n": 1,
+      "L_n": 1,
+      "prime": false
+    },
+    {
+      "n": 2,
+      "L_n": 3,
+      "prime": true
+    },
+    {
+      "n": 3,
+      "L_n": 4,
+      "prime": false
+    },
+    {
+      "n": 4,
+      "L_n": 7,
+      "prime": true
+    },
+    {
+      "n": 5,
+      "L_n": 11,
+      "prime": true
+    },
+    {
+      "n": 6,
+      "L_n": 18,
+      "prime": false
+    },
+    {
+      "n": 7,
+      "L_n": 29,
+      "prime": true
+    },
+    {
+      "n": 8,
+      "L_n": 47,
+      "prime": true
+    },
+    {
+      "n": 9,
+      "L_n": 76,
+      "prime": false
+    },
+    {
+      "n": 10,
+      "L_n": 123,
+      "prime": false
+    },
+    {
+      "n": 11,
+      "L_n": 199,
+      "prime": true
+    },
+    {
+      "n": 12,
+      "L_n": 322,
+      "prime": false
+    }
+  ],
+  "unforced_next_limit_examples": {
+    "retain_source": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "double_source": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "retain_two_seeds_and_recur": [
+      2,
+      1,
+      3,
+      4,
+      7,
+      11
+    ]
+  },
+  "not_derived": [
+    "spatial z axis",
+    "literal light or shadow dynamics",
+    "prime-only collision rule",
+    "2\u21945 layer operator",
+    "unique rule for collision, delay, or next layer"
+  ]
+}

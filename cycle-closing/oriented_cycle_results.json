@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-09",
+  "passed": true,
+  "status": "candidate rules; not a full formalization of Marc\u2019s geometric model",
+  "digit_operations": {
+    "initial": "0123456789",
+    "left_rotation": "1234567890",
+    "full_reversal": "9876543210",
+    "local_pair_reversal": "01 \u2192 10",
+    "reflection_conjugates_rotation_to_inverse": true
+  },
+  "oriented_cycle": {
+    "rule": "increment phase modulo 10; flip orientation only on wrap",
+    "rule_status": "proposed",
+    "state_count": 20,
+    "observed_word_period": 10,
+    "complete_finite_state_period": 20,
+    "rows": [
+      {
+        "step": 0,
+        "word": "0123456789",
+        "phase": 0,
+        "orientation": 1,
+        "oriented_zero": "+0"
+      },
+      {
+        "step": 1,
+        "word": "1234567890",
+        "phase": 1,
+        "orientation": 1,
+        "oriented_zero": "+0"
+      },
+      {
+        "step": 9,
+        "word": "9012345678",
+        "phase": 9,
+        "orientation": 1,
+        "oriented_zero": "+0"
+      },
+      {
+        "step": 10,
+        "word": "0123456789",
+        "phase": 0,
+        "orientation": -1,
+        "oriented_zero": "-0"
+      },
+      {
+        "step": 11,
+        "word": "1234567890",
+        "phase": 1,
+        "orientation": -1,
+        "oriented_zero": "-0"
+      },
+      {
+        "step": 19,
+        "word": "9012345678",
+        "phase": 9,
+        "orientation": -1,
+        "oriented_zero": "-0"
+      },
+      {
+        "step": 20,
+        "word": "0123456789",
+        "phase": 0,
+        "orientation": 1,
+        "oriented_zero": "+0"
+      }
+    ],
+    "inverse_checks": 20
+  },
+  "retained_history": {
+    "rule": "retain unbounded wrap counter c as additional state",
+    "tested_steps": 1001,
+    "unique_states": 1001,
+    "reconstruct_time": "t=10c+q"
+  },
+  "literal_coordinate_rows": [
+    {
+      "raw": "xyz",
+      "length": 3,
+      "z_count": 1
+    },
+    {
+      "raw": "zxzyzz",
+      "length": 6,
+      "z_count": 4
+    },
+    {
+      "raw": "zzxzzyzzzx",
+      "length": 10,
+      "z_count": 7
+    }
+  ],
+  "angular_count": {
+    "assumptions": "nine labeled independent angular slots, each with 360 discrete choices",
+    "N": "101559956668416000000000",
+    "N_times_N": "10314424798490535546171949056000000000000000000",
+    "unconstrained_N_frame_histories": "N^N",
+    "deterministic_N_frame_histories_from_N_states": "at most N",
+    "synchronized_unit_rotation_period": 360,
+    "base_360_counter_period": "360^9 (requires a carry rule)"
+  },
+  "superseded": "F-02 run-length interpretation of z1; not Marc\u2019s intended meaning",
+  "open": [
+    "coordinate token boundaries",
+    "precise retained-z-to-index rule",
+    "which variable is Fibonacci",
+    "cancellation-to-echo transition",
+    "nine-angle discretization/independence and coupling",
+    "prime role versus arithmetic primality"
+  ]
+}

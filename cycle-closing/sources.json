@@ -1,0 +1,58 @@
+{
+  "review_date": "2026-10-09",
+  "source_root": "Theorem (the author's private notes folder)",
+  "files": [
+    {
+      "file": "Formalization/00 The Foundation - Nothing is Something.md",
+      "sha256": "1a3dfb1781a69fac0cafa595fc7b6bd1b1f867f59b6d9def38bc349a0929de22"
+    },
+    {
+      "file": "Ideas/2026-10-07 The pathway of 1.md",
+      "sha256": "a528ce7133d5fe00bd79eaa60a22989861c8fe5bfdb6ff31e410598deeecb0eb"
+    },
+    {
+      "file": "Notes/Nothing Theorem Euler Mertens.md",
+      "sha256": "4df2e82057496d69a984045b6ba4e01fff576086cefc1ba47463ae521e821966"
+    },
+    {
+      "file": "Notes/Nothing Theorem Fibonacci Equilibrium.md",
+      "sha256": "e66cc00d226e235e6892a76c36fb9865a71f016867d6c2826ee495580c394a8d"
+    },
+    {
+      "file": "Notes/Nothing Theorem Gap CONVERGENCE.md",
+      "sha256": "e9fcddfdb1a8f3f02d8229aaa7c0924a462be2b4875cc409f3eec16ae6d899c2"
+    },
+    {
+      "file": "Notes/Nothing Theorem Hash Compression.md",
+      "sha256": "29b5951cac20f9362ecc72cd148882d6e7306406595388663790dee7b5aca68a"
+    },
+    {
+      "file": "Notes/Nothing Theorem Philosophy.md",
+      "sha256": "0b4dbd29b3c7aceb874f664582d2474a9f515ba0cc775460bea2ed6fd8dc4898"
+    },
+    {
+      "file": "Notes/Nothing Theorem Spiral Visualizer.md",
+      "sha256": "9a9efff1f881cf38ae1018892f3478da41259b870de6e6b126cff890ade0550a"
+    },
+    {
+      "file": "Notes/Nothing Theorem Terminal 1D.md",
+      "sha256": "2260089224691a49bbf76a5808f7ec7f8155dfa44dc9f7c46cae6e7de648bfe3"
+    },
+    {
+      "file": "Notes/Nothing_Theorem.md",
+      "sha256": "b18f65fbb32e18061eff1c4191e951a85e4fe498e537880a2607c5ddc0390775"
+    },
+    {
+      "file": "Notes/spiral_equilibrium_definitive_FEATURES.md",
+      "sha256": "98bcc94ce6455fce455b624232184530ee84b03c1a1fd8e2015588f4c0f0f19e"
+    },
+    {
+      "file": "Philosophy/Interpretation - Angels digitalized.md",
+      "sha256": "b560428e8cd74553cb8e44029e0316e5d0d409f101d831c3f74ce40bc7c3d9a4"
+    },
+    {
+      "file": "Theorem.md",
+      "sha256": "9ac50bcd68ad62dd8cf795fa89d512896cfe29397edebd3b6372d1eba59fe599"
+    }
+  ]
+}

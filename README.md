@@ -11,11 +11,14 @@ A personal thought experiment, worked out over about a year in notebooks, spread
 - **A mirror alphabet.** A substitution on `>` `=` `<` `0` turns mirroring into reading backwards: `>=<` and `<=>` become palindromes.
 - **The box rule (new).** Hot `><` and cold `<>` cores box up only with their inverse. Doing the "division" in one frame grows by **2**. Doing it in two frames (push out, then pair up) grows by **φ = 1.618…**, and splitting the box again and again closes in on **π**.
 
-Every claim is labelled **STATED / PROVED / COMPUTED / BUILT / OPEN**. Nothing here claims to derive physics. The open gaps are listed as openly as the results.
+**Current working conjecture: a route to alpha.** Marc proposes that the theorem's Lucas loops and nested phi layers yield the inverse fine-structure constant. The fixed candidate is `1/alpha = C - phi^-28/(1 + phi^-9)`, where C is the Lucas checkpoint defined in section 9. [The complete note](alpha/README.md) records the construction, numerical comparisons, history, alternatives, and missing steps. The arithmetic is reproducible; the physical identification is not established.
+
+Every claim is labelled **STATED / PROVED / COMPUTED / BUILT / OPEN**. A working conjecture is distinguished from a proved result. The open gaps are listed alongside the calculations.
 
 ## Read
 
 - [THEOREM.md](THEOREM.md): the whole thing, formalized, in one page.
+- [alpha/README.md](alpha/README.md): the working alpha conjecture, calculations, and development history.
 - [IN_MY_WORDS.md](IN_MY_WORDS.md): the original ideas, unedited.
 - [cycle-closing/REVIEW.md](cycle-closing/REVIEW.md): the full proofs and the corrections.
 - [box-rule/sketches/](box-rule/sketches/): the paper sketches behind the box rule.
@@ -26,6 +29,7 @@ The project needs only Python 3 (standard library) and a browser. There is nothi
 
 ```bash
 python3 run_all.py              # reruns every check (about a minute)
+python3 alpha/alpha_check.py    # the alpha candidate and explored alternatives
 python3 box-rule/box_rule.py    # just the box rule, with readable output
 ```
 
@@ -37,6 +41,7 @@ Open `cycle-closing/index.html` in a browser for the interactive offline lab: th
 THEOREM.md          formal write-up (start here)
 IN_MY_WORDS.md      the ideas as first written
 run_all.py          reruns every script and reports pass/fail
+alpha/              current conjecture, numerical check, and preserved historical drafts
 box-rule/           box_rule.py + results + the two hand sketches
 cycle-closing/      review, proofs (F-01..F-03), offline labs, verification scripts
 ```

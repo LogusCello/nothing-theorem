@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parent
 SCRIPTS = ["cycle-closing/verify.py", "cycle-closing/cassini_check.py",
            "cycle-closing/inverse_paths_check.py",
            "cycle-closing/symbol_layers_check.py", "cycle-closing/oriented_cycle_check.py",
-           "box-rule/box_rule.py"]
+           "box-rule/box_rule.py", "alpha/alpha_check.py"]
 
 failed = 0
 for s in SCRIPTS:

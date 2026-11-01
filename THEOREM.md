@@ -10,7 +10,7 @@ This is a thought experiment that turned into a small, checkable piece of mathem
 | **BUILT** | a modelling choice made to turn an idea into a runnable rule |
 | **OPEN** | not settled yet |
 
-None of this claims to derive physics. The claims are about the stated rules and nothing more.
+The proved results concern the stated mathematical rules. Section 9 records a proposed route to a physical constant; that physical identification remains a working conjecture, not an established derivation.
 
 Notation: F(n) is Fibonacci (F0=0, F1=1), L(n) is Lucas (L0=2, L1=1, L2=3), φ = (1+√5)/2 ≈ 1.618, and ψ = (1−√5)/2 = −1/φ ≈ −0.618.
 
@@ -180,13 +180,37 @@ Pushing out a core and letting it find its inverse one frame later gives exactly
 - Does the box keep 4 sides, or gain sides as it closes in?
 - How fast do `>=<` ↔ `<=>` swaps happen? That swap frequency is the proposed z-axis, read as **sound**.
 
-## 9 · Numerical curiosities (approximations, not identities)
+## 9 · A working conjecture: a route to alpha
 
-**COMPUTED.**
-- 137 + 1/28, refined with φ terms, gives 137.0360006…, which is 1.4×10⁻⁶ away from the stored fine-structure reference 137.035999177.
-- A six-term expression simplifies to 2.71 + 1/90 − √2/500, which is 8.6×10⁻⁷ away from e.
+**STATED (Marc).** This is my current idea of how to get to alpha based on the theorem: use its Lucas loops to build a checkpoint for the inverse fine-structure constant, then refine it with nested, alternating phi layers.
 
-These are tight approximations. They are **not** derivations: a formula can be selected after looking at the target. They are kept as curiosities, and a prediction fixed in advance would be the real test.
+**BUILT / COMPUTED.** With L4 = 7, L7 = 29, L10 = 123 and the phi of section 2:
+
+```text
+S  = L10 + 2*L4 = 137
+V0 = S + 1/(4*L4)
+V1 = V0 + (1/V0)/L7
+V2 = S + 1/(L7 - 2/phi)
+C  = (V1 + 2*V2)/3 = 137.03600060839314565...
+```
+
+**Working conjecture (rule recorded 2026-10-29):**
+
+```text
+1/alpha = C - phi^-28 + phi^-37 - phi^-46 + ...
+        = C - phi^-28/(1 + phi^-9)
+        = 137.03599921949654087569...
+```
+
+The checkpoint is the base layer; there is no added phi^-19 term. Nested brackets motivate exponents 28, 37, 46 and alternating signs. **PROVED:** the displayed series converges to its closed form. **OPEN:** the theorem does not yet force these choices or identify the result with physical alpha.
+
+**COMPUTED** (`alpha/alpha_check.py`). Against the stored CODATA 2022, Rb 2020 and Cs 2018 inputs, the candidate has residuals +2.02, +1.23 and +6.43 standard uncertainties respectively. Those references disagree; matching one is not confirmation from all three. The supplied reference provenance has not been independently rechecked for this addition.
+
+The checkpoint and first correction were developed with the target known. The notes record naming exponents 37 and 46 before calculating their contributions, followed by exploration of signs. This preserves the history without treating it as an independent experimental prediction. The current formula is a **working conjecture**, not a completed derivation of alpha.
+
+[The alpha note](alpha/README.md) gives the numbers, the construction, and a short Python calculation to try or correct. [Development notes](alpha/DEVELOPMENT.md) retain the detailed explanations, dated choices, alternatives, and remaining gaps. [The original drafts](alpha/history/README.md) are retained as historical material, with superseded claims identified.
+
+Earlier Euler explorations remain in the historical archive; this update focuses on the alpha construction.
 
 ## 10 · What is still missing
 
@@ -194,10 +218,12 @@ These are tight approximations. They are **not** derivations: a formula can be s
 2. Units: nothing here maps a step to physical time, length or energy.
 3. A rule for the next layer of symbols (σ stops after one layer).
 4. A full state-transition for the box rule: the start side, how neighbours relate across layers, and when a box breaks.
-5. A prediction made *before* comparing with anything.
+5. For the alpha conjecture: derive the checkpoint and layer choices without fitting the target, establish the physical identification, and specify a test against future independent data before examining them.
 
 ## Credits
 
 - **Idea, sketches, and all STATED material:** Marc.
 - **Cycle-closing review, proofs in sections 1–7 and 9, and the offline labs:** Astra (AI assistant), 2026-10-09. See `cycle-closing/REVIEW.md`.
 - **Box-rule test (section 8) and this write-up:** Claude (Anthropic), 2026-10-15.
+
+- **Alpha working-conjecture documentation and numerical review:** Codex (AI assistant), from Marc's October 2026 notes and Claude's drafts. Original drafts retained under `alpha/history/`.
